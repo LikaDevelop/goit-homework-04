@@ -120,7 +120,7 @@ img{
 }
 
 
-.menu-item:hover::after{
+.menu-item::after{
     display: block;
     content: "";
     background-color: #404bbf;;
@@ -519,7 +519,7 @@ img{
 .social-list-footer{
     display: flex;
     justify-content: center;
-    column-gap: 16px;
+    gap: 16px;
 }
 
 .social-list-link-footer{
